@@ -1523,6 +1523,21 @@ div.co-1 {
     border-radius: 10px;
 }
 
+
+.beac {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 11px 1px #33333338;
+    transition: all .3s ease;
+    margin-top: 25px; 
+}
+
+.beac:hover {
+    margin-top: 0;
+    box-shadow: 2px 3px 13px 6px #33333338;
+}
+
 .icon-gt {
     text-align: center;
 }
