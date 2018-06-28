@@ -1378,7 +1378,34 @@ div.co-1 {
 
 .main-gioithieu .content-gioithieu {
     background-color: white;
-    margin-top: 40px;
+}
+
+
+.tu-van {
+    max-width: 100%;
+    background-image: url('https://i.pinimg.com/originals/51/5e/66/515e6645e8a303459315321bfd4e4a05.jpg');
+    background-repeat: no-repeat;
+    height: 225px;
+    background-size: cover;
+    border-bottom: 20px solid #333;
+}
+
+.tu-van h2 {
+    color: white;
+    margin: 0;
+    padding: 40px 0;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.tu-van a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: #d82119;
+    border-radius: 8px;
+    text-transform: uppercase;
 }
 
 /* Start Ct-gt1 */
@@ -1386,6 +1413,7 @@ div.co-1 {
 .ct-gt1 {
     padding-bottom: 30px;
     border-bottom: 1px solid #8884841c;
+    margin-top: 70px;
 }
 
 .ct-gt1 > h3{
@@ -1501,7 +1529,10 @@ div.co-1 {
 /* Start Ct-gt2 */
 
 .ct-gt2 {
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
+    background-image: url('https://cdn.wallaps.com/wallpapers/10000/9764.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 20px 0;
 }
 
