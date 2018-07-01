@@ -1483,20 +1483,13 @@ div.co-1 {
     background-color: white;
     padding: 14px;
     border-radius: 15px;
-    box-shadow: 0px -13px 0px 0px #1f716e;
+    box-shadow: -10px -20px 0px 0px #1f716e;
 }
 
 .contents-tabs:hover {
     box-shadow: 0px -13px 0px 0px #696d7547;
 }
 
-.tabs-api h3{
-    display: inline-block;
-    color: #444444;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 0;
-}
 
 
 .contents-tabs table ul {
@@ -1514,7 +1507,7 @@ div.co-1 {
     font-weight: 600;
 }
 
-.contents-tabs > p:before {
+/* .contents-tabs > p:before {
     content: "";
     width: 5px;
     height: 20px;
@@ -1543,10 +1536,37 @@ div.co-1 {
     -ms-transform : skew(-23deg);
     top: 0;
     left: -15px;
-}
+} */
 
 
 /* Start Ct-gt2, ct-gt3, ct-gt4, ctgt5, ctgt6*/
+
+.ct-gt2 .container > h2, 
+.ct-gt3 .container > h2, 
+.ct-gt4 .container > h2, 
+.ct-gt5 .container > h2, 
+.ct-gt6 .container > h2 {
+    font-family: 'Roboto';
+    position: relative;
+    font-weight: 700;
+    margin-bottom: 50px;
+    padding: 0px 0 50px 0;
+}
+
+
+.ct-gt2 .container > h2:after, 
+.ct-gt3 .container >  h2:after, 
+.ct-gt4 .container > h2:after, 
+.ct-gt5 .container > h2:after, 
+.ct-gt6 .container > h2:after {
+    content: "";
+    width: 7%;
+    border: 4px solid #ad1b1f;
+    position: absolute;
+    top: 100%;
+    left: 46%;
+    border-radius: 10px;
+}
 
 .ct-gt2 {
     /* background-color: #f9f9f9; */
@@ -1557,27 +1577,13 @@ div.co-1 {
     border-top: 5px solid #463e3e47;
 }
 
-.ct-gt2 .container > h2, .ct-gt3 .container > h2, .ct-gt4 .container > h2, .ct-gt5 .container > h2, .ct-gt6 .container > h2 {
-    position: relative;
-    font-weight: 700;
-    margin-bottom: 50px;
-    padding: 0px 0 50px 0;
-    font-family: 'Roboto';
-}
+
 
 .ct-gt2 .container > h2 {
     color: white !important;
 }
 
-.ct-gt2 .container > h2:after, .ct-gt3 .container >  h2:after, .ct-gt4 .container > h2:after, .ct-gt5 .container > h2:after, .ct-gt6 .container > h2:after {
-    content: "";
-    width: 7%;
-    border: 4px solid #ad1b1f;
-    position: absolute;
-    top: 100%;
-    left: 46%;
-    border-radius: 10px;
-}
+
 
 .beac {
     background-color: white;
