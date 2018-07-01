@@ -629,7 +629,7 @@ div.co-1 {
 
 .home-intro span a {
     text-decoration: none;
-    color: #007abf;
+    color: #127774;
 }
 
 .home-intro span a:hover {
@@ -879,7 +879,7 @@ div.co-1 {
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 10px;
-    color: #0088cc;
+    color: #0e8986d9;
     box-shadow: 1px 5px 20px 6px #3690ff26;
     padding: 15px 30px 15px 70px;
     border-radius: 8px;
@@ -1097,9 +1097,8 @@ div.co-1 {
 }
 
 .main-news p {
-    font-family: 'Roboto Condensed';
     color: #000000ad;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
 }
 
@@ -1170,7 +1169,6 @@ div.co-1 {
 }
 
 .child-news .image-news p {
-    font-family: 'Roboto Condensed';
     color: #000000ad;
     font-size: 14px;
     line-height: 25px;
@@ -1380,6 +1378,14 @@ div.co-1 {
     background-color: white;
 }
 
+.gt {
+    /* background: linear-gradient(to bottom, white, #33333308); */
+    padding-bottom: 80px;
+    background-image: url('../images/vector8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .tu-van {
     max-width: 100%;
@@ -1388,13 +1394,14 @@ div.co-1 {
     height: 225px;
     background-size: cover;
     border-bottom: 20px solid #333;
+    border-top: 2px solid #24827e;
 }
 
 .tu-van h2 {
     color: white;
     margin: 0;
     padding: 40px 0;
-    font-weight: bold;
+    font-weight: 100;
     font-size: 35px;
 }
 
@@ -1407,6 +1414,11 @@ div.co-1 {
     border-radius: 8px;
     text-transform: uppercase;
 }
+
+.tu-van a:hover {
+    background-color: #d82119ba;
+}
+
 
 /* Start Ct-gt1 */
 
@@ -1444,7 +1456,12 @@ div.co-1 {
     left: 5px;
 }
 
+.tabs-gt {
+    background-color: white;
+}
+
 .tabs-gt > p {
+    font-size: 15px;
     color: #333333d9;
     border: 1px solid #0606062e;
     padding: 16px;
@@ -1463,6 +1480,7 @@ div.co-1 {
 .contents-tabs {
     margin-top: 30px;
     border: 1px solid #0606062e;
+    background-color: white;
     padding: 14px;
     border-radius: 15px;
     box-shadow: 0px -13px 0px 0px #1f716e;
@@ -1472,6 +1490,21 @@ div.co-1 {
     box-shadow: 0px -13px 0px 0px #696d7547;
 }
 
+.tabs-api h3{
+    display: inline-block;
+    color: #444444;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.contents-tabs table ul {
+    font-size: 15px;
+    margin-left: 50px;
+    color: #333333d9;
+    line-height: 25px;
+}
 
 .contents-tabs > p {
     position: relative;
@@ -1512,39 +1545,31 @@ div.co-1 {
     left: -15px;
 }
 
-.contents-tabs table ul {
-    margin-left: 50px;
-    color: #333333d9;
-    line-height: 25px;
-}
 
-.tabs-api h3{
-    display: inline-block;
-    color: #444444;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 0;
-}
-
-/* Start Ct-gt2 */
+/* Start Ct-gt2, ct-gt3, ct-gt4, ctgt5, ctgt6*/
 
 .ct-gt2 {
     /* background-color: #f9f9f9; */
-    background-image: url('https://cdn.wallaps.com/wallpapers/10000/9764.jpg');
+   background-image: url('../images/vector1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px 0;
+    padding: 100px 0;
+    border-top: 5px solid #463e3e47;
 }
 
-.ct-gt2 h2, .ct-gt3 h2, .ct-gt4 h2 {
+.ct-gt2 .container > h2, .ct-gt3 .container > h2, .ct-gt4 .container > h2, .ct-gt5 .container > h2, .ct-gt6 .container > h2 {
     position: relative;
     font-weight: 700;
     margin-bottom: 50px;
-    padding: 20px 0 20px 0;
+    padding: 0px 0 50px 0;
     font-family: 'Roboto';
 }
 
-.ct-gt2 h2:after, .ct-gt3 h2:after, .ct-gt4 h2:after {
+.ct-gt2 .container > h2 {
+    color: white !important;
+}
+
+.ct-gt2 .container > h2:after, .ct-gt3 .container >  h2:after, .ct-gt4 .container > h2:after, .ct-gt5 .container > h2:after, .ct-gt6 .container > h2:after {
     content: "";
     width: 7%;
     border: 4px solid #ad1b1f;
@@ -1554,12 +1579,11 @@ div.co-1 {
     border-radius: 10px;
 }
 
-
 .beac {
     background-color: white;
     padding: 25px;
     border-radius: 15px;
-    box-shadow: 2px 3px 11px 1px #33333338;
+    box-shadow: -5px -10px 11px 1px #33333338;
     transition: all .3s ease;
     margin-top: 25px; 
 }
@@ -1595,6 +1619,8 @@ div.co-1 {
 }
 
 .comment-gt > p {
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
     color: #3333339e;
 }
 
@@ -1622,6 +1648,14 @@ div.co-1 {
     margin: auto;
 }
 
+/* Ct-gt3 */
+
+.ct-gt3 {
+    padding: 50px 0;
+    background-image: url('../images/vector6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* Slick slider 7 Update */
 .slider-slick7 .item {
@@ -1635,13 +1669,13 @@ div.co-1 {
 
 .controllers .prev1 {
     position: absolute;
-    top: 37%;
+    top: 50%;
     left: -10px;
 }
 
 .controllers .next1 {
     position: absolute;
-    top: 37%;
+    top: 50%;
     right: -10px;
 }
 
@@ -1651,13 +1685,50 @@ div.co-1 {
 }
 
 /* End Slick-Slider7 Update */
+
+/* Ct-gt4 */
+
 .ct-gt4 {
     background-color: #333;
-    padding-bottom: 50px;
+    padding: 50px 0;
 }
 
-.ct-gt4 h2 {
+.ct-gt4 .container > h2 {
     color: white !important; 
+}
+
+/* Ct-gt5 */
+
+
+.ct-gt5 {
+    background: white;
+    padding: 50px 0;
+}
+
+.ct-gt5 .container > h2 {
+    color: #333;
+}
+
+
+/* Ct-gt6 */
+
+.ct-gt6 {
+    padding: 80px 0;
+    background-image: url('../images/backgroundgt3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ct-gt6 .container > h2 {
+    color: white !important;
+}
+
+.form-control {
+    width: 50% !important;
+}
+
+.form-group label {
+    color: white;
 }
 
 
