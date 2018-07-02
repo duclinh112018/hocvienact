@@ -109,8 +109,8 @@ div.container {
     padding-bottom: 18px;
 }
 
-.main-menu .menu > li:first-child > a {
-    color: white;
+.set-active {
+    color: white !important;
     background-color: #0088cc;
     border-radius: 4px;
 }
@@ -265,7 +265,7 @@ div.icon .ul-icon li {
 }
 
 input[type=search] {
-    background-image: url(C:/Users/ducer/Desktop/ACT_ACADEMY/images/search.png);
+    background-image: url('../images/search.png');
     background-repeat: no-repeat;
     background-position: 4px 5px;
     padding: 3px 0px 3px 23px;
@@ -1490,8 +1490,6 @@ div.co-1 {
     box-shadow: 0px -13px 0px 0px #696d7547;
 }
 
-
-
 .contents-tabs table ul {
     font-size: 15px;
     margin-left: 50px;
@@ -1536,8 +1534,8 @@ div.co-1 {
     -ms-transform : skew(-23deg);
     top: 0;
     left: -15px;
-} */
-
+}
+ */
 
 /* Start Ct-gt2, ct-gt3, ct-gt4, ctgt5, ctgt6*/
 
@@ -1546,11 +1544,11 @@ div.co-1 {
 .ct-gt4 .container > h2, 
 .ct-gt5 .container > h2, 
 .ct-gt6 .container > h2 {
-    font-family: 'Roboto';
     position: relative;
     font-weight: 700;
     margin-bottom: 50px;
     padding: 0px 0 50px 0;
+    font-family: 'Roboto';
 }
 
 
@@ -1578,11 +1576,9 @@ div.co-1 {
 }
 
 
-
 .ct-gt2 .container > h2 {
     color: white !important;
 }
-
 
 
 .beac {
@@ -1658,7 +1654,7 @@ div.co-1 {
 
 .ct-gt3 {
     padding: 50px 0;
-    background-image: url('../images/vector6.jpg');
+    background-image: url('../images/vector11.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -1666,7 +1662,7 @@ div.co-1 {
 /* Slick slider 7 Update */
 .slider-slick7 .item {
     text-align: center;
-    height: 400px;
+    height: 450px;
     color: #fff;
     margin: 0 10px;
     border-radius: 8px;
